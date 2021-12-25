@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from 'styled-components';
+import animeService from "../../services/animeService";
 
 interface IHomePageProps {
 
@@ -13,8 +14,25 @@ const Container = styled.div`
   align-items: center;
 `;
 
-export const Homepage = (props: IHomePageProps) => {
-  return <Container>
+export const HomePage = (props: IHomePageProps) => {
+  
+  const fetchAnimePage = async () => {
+    const animePage = await animeService.getAnimePage(0).catch((err) => {
+      console.log("Error: ", err);
+    });
+
+    console.log("Anime Page: ", animePage);
+    };
+  
+
+  useEffect(() => {
+    fetchAnimePage();
+  }, []);
+  
+  return (
+  <Container>
     <h1>The biggest Animes of the moment</h1>
   </Container>
-}
+  );
+
+  }
