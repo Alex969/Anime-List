@@ -10,6 +10,7 @@ const AnimeContainer = styled.div`
   height: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 `;
 
 const AnimeItemContainer = styled.div`
@@ -48,7 +49,7 @@ export const Animes = () => {
   const isEmptyAnimePage = !animePage || !animePage.media || !animePage.media.length === 0;
 
   if(isEmptyAnimePage)
-    return null;
+    return <div>>Loading...</div>;
 
   return <AnimeContainer>
     {animePage && animePage.media && animePage?.media?.map((anime) => (
