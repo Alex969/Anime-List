@@ -21,4 +21,28 @@
     <img align="right" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" width="95" height="25"width="95" height="25"/>
     <img align="right" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" width="95" height="25"/>
   </h3>
+  <hr/>
 </div>
+
+<!-- GETTING STARTED -->
+### Getting Started
+
+This project was a way for me to get hands-on experience with GraphQL and Redux and was quite a jump for me in terms of learning. That's why I kept the layout and fields fetched to an minimum. 
+Delivering an MVP of an anime list gave me a solid understanding of those two frameworks and it was my first project fully written in typescript too ! 
+
+#### To use : 
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Alex969/Anime-List.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run build on localhost
+   ```
+   npm start
+   ```
+
+
