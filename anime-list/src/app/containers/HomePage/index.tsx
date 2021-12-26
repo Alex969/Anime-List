@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { useAppDispatch } from "../../hooks";
 import animeService from "../../services/animeService";
 import { GetAnimePage } from "../../services/animeService/__generated__/GetAnimePage";
+import { Animes } from "./animes";
 import { setAnimePage } from "./homePageSlice";
 
 interface IHomePageProps {
@@ -41,7 +42,8 @@ export const HomePage = (props: IHomePageProps) => {
   
   return (
   <Container>
-    <h1>The biggest Animes of the moment</h1>
+    <h1>List of Popular Animes</h1>
+    <Animes />
   </Container>
   );
 
