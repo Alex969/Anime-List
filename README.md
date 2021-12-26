@@ -1,1 +1,3 @@
-# Anime-List
+# List of popular animes 
+
+![](gifList.gif)
