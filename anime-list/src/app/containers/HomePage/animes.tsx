@@ -59,6 +59,7 @@ export const Animes = () => {
         <AnimeTitle>
           { anime.title.english  }
         </AnimeTitle>
+        <b>Average Score: { anime?.averageScore }</b>
       </AnimeItemContainer>
     ))}
   </AnimeContainer>

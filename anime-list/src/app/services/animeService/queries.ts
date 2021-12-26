@@ -6,7 +6,8 @@ export const GET_ANIME_PAGE =gql`
       media {
         id
         description
-        title {
+        averageScore
+         title {
           english
         }
         coverImage {
