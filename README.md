@@ -27,7 +27,7 @@
 <!-- GETTING STARTED -->
 ### Getting Started
 
-This project was a way for me to get hands-on experience with GraphQL and Redux and was quite a jump for me in terms of learning. That's why I kept the layout and fields fetched to an minimum. 
+This project was a way to get hands-on experience with GraphQL and Redux and was quite a jump for me in terms of learning. That's why I kept the layout and fields fetched to a minimum. 
 Delivering an MVP of an anime list gave me a solid understanding of those two frameworks and it was my first project fully written in typescript too ! 
 
 #### To use : 
