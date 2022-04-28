@@ -2,7 +2,6 @@
   <h1> List of popular Animes </h1>
 
   [![Generic badge](https://img.shields.io/npm/v/npm?style=plastic)](https://shields.io/)
-  [![Generic badge](https://img.shields.io/depfu/Alex969/Anime-List?style=plastic)](https://shields.io/)
  
   
   <a href="https://www.linkedin.com/in/alexander-annani-8205161a2/">
